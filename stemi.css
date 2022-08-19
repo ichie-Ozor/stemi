@@ -1,0 +1,145 @@
+body {
+  width: 400px;
+  height: 828px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+.title {
+  display: flex;
+  margin-left: 10px;
+}
+.signIn {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.title__name {
+  display: flex;
+}
+.title__name > h1 {
+  color: blue;
+  margin-right: 5px;
+}
+.title > h3 {
+  margin-left: 150px;
+  margin-top: 30px;
+  color: blue;
+  font-size: large;
+  font-family: sans-serif;
+}
+.email > h3{
+    margin-left: 10px;
+}
+.email__line {
+  width: 350px;
+  border: 1px solid grey;
+  margin-left: 10px
+}
+.linkedin {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.password{
+    margin-top: 30px;
+}
+.password__line-image{
+    display: flex;
+}
+.password__line-image > img{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.password__line-image > h3{
+    margin-left: 10px;
+}
+.password__line{
+    width: 350px;
+  border: 1px solid grey;
+  margin-left: 10px
+}
+.Remember{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.Remember>input{
+    background-color: green;
+}
+#Remember{
+     background-color: green;
+}
+.forgot{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.continue{
+    width: 350px;
+    background-color: rgb(9, 9, 243);
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 50px;
+}
+.continue > h3{
+    color: white;
+    margin-left: 130px;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-family:monospace;
+    font-size:x-large;
+}
+.or{
+    display: flex;
+    margin-left: 10px;
+}
+.or > h4{
+    width: 20px;
+    margin-left: 5px;
+}
+.or__line1, .or__line2{
+width: 170px;
+border: .05px solid lightgrey;
+height: 0;
+margin-top: 30px;
+}
+.google{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.google-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 60px;
+}
+.google>h2{
+margin-top: 12px;
+color: grey;
+font-family:monospace;
+}
+.apple{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.apple-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 60px;
+}
+.apple>h2{
+margin-top: 12px;
+color: grey;
+font-family:monospace;
+}
